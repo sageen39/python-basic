@@ -8,10 +8,11 @@ print("Appended List: ",animals)
 
 # print specific animal from the list
 print("\nSpecific Pick:")
-print(animals[2].title())
+print("animals[0]: ", animals[0].title())
+print("animals[2]: ", animals[2].title())
 
 # print from the end start from -1
-print(animals[-1].title())
+print("animals[-1]: ",animals[-1].title())
 
 # change element
 animals[3]= "cat"

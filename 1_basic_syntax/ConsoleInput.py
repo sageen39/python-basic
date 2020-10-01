@@ -2,7 +2,7 @@
 
 print("Answer the following questions:")
 
-name = input("Name:")
+name = str(input("Name:"))
 print("What is your age,", (name),"?")
 
 #int means integer
